@@ -194,7 +194,7 @@
 <h2 id="配置github"><a href="#配置github" class="headerlink" title="配置github"></a>配置github</h2><ul>
 <li>建立仓库（注：在github建立的仓库，仓库名一定为“username.<em>github.io</em>”,这是固定写法）</li>
 <li>配置SSH key</li>
-<li>测试是否成功：ssh -T <a href="mailto:&#x67;&#x69;&#116;&#64;&#x67;&#x69;&#116;&#x68;&#117;&#x62;&#x2e;&#x63;&#111;&#109;">&#x67;&#x69;&#116;&#64;&#x67;&#x69;&#116;&#x68;&#117;&#x62;&#x2e;&#x63;&#111;&#109;</a><br> 看到这个信息说明SSH已配置成功：Hi XXX! You’ve successfully authenticated, but GitHub does not provide shell access.</li>
+<li>测试是否成功：ssh -T <a href="mailto:&#x67;&#105;&#116;&#64;&#103;&#105;&#x74;&#x68;&#x75;&#x62;&#x2e;&#x63;&#x6f;&#x6d;">&#x67;&#105;&#116;&#64;&#103;&#105;&#x74;&#x68;&#x75;&#x62;&#x2e;&#x63;&#x6f;&#x6d;</a><br> 看到这个信息说明SSH已配置成功：Hi XXX! You’ve successfully authenticated, but GitHub does not provide shell access.</li>
 <li>打开根目录下的_config.yml<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repository: https://github.com/username/username.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure></li>
 <li>使用git部署<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
 <h2 id="部署三部曲"><a href="#部署三部曲" class="headerlink" title="部署三部曲"></a>部署三部曲</h2></li>
@@ -295,6 +295,15 @@
 
   
 <nav id="article-nav">
+  
+    <a href="/2021/01/22/d3-canvas-%E7%BB%98%E5%88%B6%E5%8A%9B%E5%AF%BC%E5%90%91%E5%9B%BE/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          d3 canvas 绘制力导向图
+        
+      </div>
+    </a>
   
   
     <a href="/2021/01/07/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
